@@ -29,3 +29,7 @@ var port = 10001;
 server.listen(port, function() {
     console.log('server listening on port ' + port);
 });
+
+server.get('/shop_data', function(req, res, next) {
+  res.json(shop_data);
+});
