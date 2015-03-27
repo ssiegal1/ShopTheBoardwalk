@@ -1,0 +1,40 @@
+{
+  "id": "/Shops",
+  "type": "array",
+    "items": {
+        "title": "Shop",
+        "id": "Shop",
+        "type": "object",
+        "properties": {
+          "shop_name": {
+            "type": "string",
+            "description": "Store Name",
+            "required": true
+          },
+          "img_name": {
+            "type": "string",
+            "description": "Name of store logo to display with their contact info",
+            "required": true
+          },
+          "url": {
+            "type": "url",
+            "required": false
+          },
+          "phone": {
+            "type": "string",
+            "required": true
+          },
+          "hours": {
+            "type": "string",
+            "required": true
+          },
+          "category": {
+            "type": "number",
+            "required": true
+          },
+          "description": {
+            "type": "string",
+            "required": true
+          }
+  }
+}

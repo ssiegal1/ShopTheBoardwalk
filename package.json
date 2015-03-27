@@ -1,0 +1,15 @@
+{
+  "name": "shop_the_boardwalk",
+  "version": "1.0.0",
+  "description": "Shop the Boardwalk initial site",
+  "main": "example.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sara Siegal",
+  "license": "ISC"
+}
